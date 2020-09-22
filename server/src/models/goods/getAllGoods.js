@@ -1,5 +1,3 @@
-const { rejects } = require("assert")
-const { resolve } = require("path")
 const db = require("../../configs/database")
 
 module.exports = async (query, start, limit) => {
