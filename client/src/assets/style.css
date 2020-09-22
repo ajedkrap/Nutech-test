@@ -1,0 +1,17 @@
+@font-face{
+  font-family: balsamic;
+  src: url("./fonts/BalsamiqSans-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: balsamic;
+  src: url("./fonts/BalsamiqSans-Bold.ttf");
+  font-weight: bold;
+}
+
+html, body, #root{
+  width: 100%;
+  height: 100%;
+  font-family: balsamic;
+}

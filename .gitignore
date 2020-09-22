@@ -1,24 +1,24 @@
-# SERVER
+/assets
 
+# SERVER
 /server/node_modules
 /server/.env
 
 # CLIENT
-
 /client/node_modules
 
-# dependencies
+## dependencies
 /client/node_modules
 /client/.pnp
 /client/.pnp.js
 
-# testing
+## testing
 /client/coverage
 
-# production
+## production
 /client/build
 
-# misc
+## misc
 .DS_Store
 .env.local
 .env.development.local
