@@ -18,7 +18,7 @@ module.exports = {
     ) return throwValidator(false, "Form need to be filled")
 
     if (!(numberRegex.test(purchase) && numberRegex.test(selling))) return throwValidator(false, "Price should be in number")
-    if (!(parseInt(purchase) > 1000 && parseInt(selling) > 1000)) return throwValidator(false, "Price invalid")
+    if (!(parseInt(purchase) > 1000 && parseInt(selling) > 1000)) return throwValidator(false, "Price invalid, should be more than a thousand")
 
     else {
       return throwValidator(true, "Goods created", {

@@ -1,10 +1,10 @@
 module.exports = {
-  color1: "#13A699",
-  color2: "#FFD708",
-  bg1: "#FFF7ED",
-  bg2: "#AAF0D1",
-  text1: "#FFF7ED",
-  text2: "#B54E0E",
-  text3: "#F53D44",
-  text4: "#13A699",
+  color1: "#F7A538",
+  color2: "#FCC07E",
+  bg1: "#FCF1D8",
+  bg2: "#E3C9A9⁣",
+  text1: "#FCF1D8",
+  text2: "#880948",
+  text3: "#814040",
+  text4: "#9F400E⁣",
 }
